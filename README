@@ -1,0 +1,17 @@
+Python3.6
+
+
+pip install -r requirement.txt
+
+
+python manage runserver
+
+
+Example:
+1. To get BitCoin prices of last 24 hours:
+http://localhost:8000/api/coin/bitcoin/price_chart?days=1
+
+
+2. To get Bitcoin prices from 2020/08/01 08:30:00 To 2020/08/16 02:20:37
+http://localhost:8000/api/coin/bitcoin/price_chart?from=159746040&to=1597558837.83322
+
